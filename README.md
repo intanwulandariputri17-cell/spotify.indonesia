@@ -21,3 +21,5 @@ Project ini menganalisis lagu-lagu terpopuler di Spotify Indonesia berdasarkan c
 df.sort_values('popularity', ascending=False).head(10)
 df['artist'].value_counts()
 plt.barh(df['track_name'], df['popularity'])
+### 🔗 Sertifikat
+[📄 Lihat Sertifikat DQLab Saya - Python Fundamental](intandqlab.pdf)
